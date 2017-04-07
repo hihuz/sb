@@ -1,0 +1,61 @@
+/*
+base: #3081e8
+light grey: #f8fafb
+dark grey: #354251
+
+accent: #FF7422
+*/
+
+$text-color: #333;
+$light: #f1f1f1;
+$dark: #e1e1e1;
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  line-height: 1.6;
+  margin: 0;
+  color: $text-color;
+}
+
+.sb-nav {
+  position: fixed;
+  display: none; /* temp */
+}
+
+.sb-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $light;
+  border-bottom: 1px solid $dark;
+}
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+h4 {
+  font-weight: 400;
+}
+p {
+
+}
+footer {
+  text-align: center;
+}

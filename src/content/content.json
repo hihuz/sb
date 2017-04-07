@@ -1,0 +1,34 @@
+{
+  "intro": {
+    "title": "Hi !",
+    "text": [
+      "I'm <strong>Sylvain Boulade</strong>, a web developer from Toulouse (France).",
+      "I'm currently focusing mainly on modern front-end technologies.",
+      "Nice to meet you !"
+    ]
+  },
+  "articles": [
+    {
+      "name": "about",
+      "title": "About me",
+      "text": [
+        "boo"
+      ]
+    },
+    {
+      "name": "code",
+      "title": "Code / Projects",
+      "text": [
+        "boo"
+      ]
+    },
+    {
+      "name": "misc",
+      "title": "Misc !",
+      "text": [
+        "boo"
+      ]
+    }
+  ],
+  "footer": "❤"
+}
