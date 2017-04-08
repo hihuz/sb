@@ -2,7 +2,7 @@ import React from "react";
 import LinkBar from "./LinkBar";
 
 const Intro = ({ title, text }) => (
-  <section className="sb-section">
+  <section className="sb-intro">
     <article className="intro">
       <h1>{title}</h1>
       {text.map(para => {
