@@ -8,8 +8,7 @@ accent: #FF7422
 
 $text-color: #333;
 $light: #f1f1f1;
-$mild: #e1e1e1;
-$dark: #ddd;
+$dark: #e1e1e1;
 
 *,
 *::after,
@@ -47,12 +46,10 @@ body {
   border-bottom: 1px solid $dark;
 }
 .sb-section:nth-child(odd) {
-  border-left: 4rem solid $mild;
-  padding-right: 4rem;
+  border-left: 6rem solid $dark;
 }
 .sb-section:nth-child(even) {
-  border-right: 4rem solid $mild;
-  padding-left: 4rem;
+  border-right: 6rem solid $dark;
 }
 h1 {
   text-align: center;

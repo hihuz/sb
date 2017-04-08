@@ -3,8 +3,11 @@
     "title": "Hi !",
     "text": [
       "I'm <strong>Sylvain Boulade</strong>, a web developer from Toulouse (France).",
-      "I'm currently focusing mainly on modern front-end technologies.",
-      "Nice to meet you !"
+      "I'm currently focusing mainly on modern front-end technologies."
+    ],
+    "greetings": [
+      "Nice to meet you !",
+      "Welcome back !"
     ]
   },
   "articles": [
