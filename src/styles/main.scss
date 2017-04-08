@@ -26,7 +26,7 @@ html {
 
 body {
   font-family: 'Raleway', sans-serif;
-  font-size: 2em;
+  font-size: 1.6em;
   line-height: 1.6;
   margin: 0;
   color: $text-color;
@@ -47,17 +47,25 @@ body {
 }
 .sb-section:nth-child(odd) {
   border-left: 6rem solid $dark;
+  padding-right: 6rem;
 }
 .sb-section:nth-child(even) {
   border-right: 6rem solid $dark;
+  padding-left: 6rem;
+}
+article {
+  max-width: 80%;
+  margin: 3.2rem 0;
 }
 h1 {
   text-align: center;
   font-weight: 700;
   font-size: 3.2rem;
+  margin-top: 0;
 }
 h4 {
   font-weight: 400;
+  font-size: 2.2rem;
 }
 .link-bar {
   display: flex;
@@ -74,4 +82,5 @@ h4 {
 }
 footer {
   text-align: center;
+  padding: 2rem 6rem;
 }

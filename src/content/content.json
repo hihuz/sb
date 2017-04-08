@@ -3,7 +3,7 @@
     "title": "Hi !",
     "text": [
       "I'm <strong>Sylvain Boulade</strong>, a web developer from Toulouse (France).",
-      "I'm currently focusing mainly on modern front-end technologies."
+      "I'm currently focusing mainly on JavaScript and modern front-end technologies."
     ],
     "greetings": [
       "Nice to meet you !",
@@ -15,23 +15,30 @@
       "name": "about",
       "title": "About me",
       "text": [
-        "boo"
+        "After studying computer science at Paul Sabatier university in Toulouse, I found (in early 2011) a job as programmer for Harris Interactive (now a part of Toluna group), a market research company based in Paris. It was a whole new life and experience for me to work there and live in Paris.",
+        "About two years ago, I had an opportunity to come back to my home town of Toulouse (following my partner who was starting new studies there), and I have been working (for the same company) remotely since then.",
+        "Throughout the years I held various job titles (not that the title matters, but I am now a \"Technical consultant\") with increasing responsibilities, but the bulk of my work has always consisted of programming with an emphasis on the front-end side of things, with the rest of my work time split between project management, mentorship, research, contractors handling, and more.",
+        "I am very enthusiastic and curious in general, but particularly about programming. I love learning new things and challenging what I know and learn. The pace at which front-end technologies have been evolving these past few years make them a very good fit for me. This is not to say that I don't enjoy other aspects of programming, and I am always open to new opportunities."
       ]
     },
     {
       "name": "code",
       "title": "Code / Projects",
       "text": [
-        "boo"
+        "The main language I use is JavaScript (along with CSS of course), and while I don't think a long list of libraries and frameworks is of any use, I will mention that I am gravitating a lot around the React ecosystem these days.",
+        "Even though my paid work can't be showcased, I really like using some of my free time to hack on personal projects, and try my hand at technologies that I find interesting. Most of them will be on github, and some examples can be seen below."
       ]
     },
     {
       "name": "misc",
-      "title": "Misc !",
+      "title": "Other stuff",
       "text": [
-        "boo"
+        "When I'm not working, I can very often be found writing code for a personal project, reading articles, watching talks and workshops, and following the latest front-end trends on my twitter feed.",
+        "Besides programming, I enjoy playing classical music on my piano. I took lessons for more than ten years when I was a kid, and after a very long break I have started playing again about two years ago. I confess a soft spot for Beethoven.",
+        "I also like to relax playing video games on my PC (Hearthstone mostly these days, even though I have played a copious amount of games in the past), reading novels, watching movies and shows, running and cooking.",
+        "As you can probably guess from this page, I like simple things. Even though I am a bit shy, I would love to hear from you if you want to chat."
       ]
     }
   ],
-  "footer": "❤"
+  "footer": "Built with ❤ using Preact"
 }
