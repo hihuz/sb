@@ -35,10 +35,12 @@
       "text": [
         "When I'm not working, I can very often be found writing code for a personal project, reading articles, watching talks and workshops, and following the latest front-end trends on my twitter feed.",
         "Besides programming, I enjoy playing classical music on my piano. I took lessons for more than ten years when I was a kid, and after a very long break I have started playing again about two years ago. I confess a soft spot for Beethoven.",
-        "I also like to relax playing video games on my PC (Hearthstone mostly these days, even though I have played a copious amount of games in the past), reading novels, watching movies and shows, running and cooking.",
-        "As you can probably guess from this page, I like simple things. Even though I am a bit shy, I would love to hear from you if you want to chat."
+        "I also like to relax playing video games on my PC (Hearthstone mostly these days, even though I have played a copious number of games in the past), reading novels, watching movies and shows, listening to music, running and cooking."
       ]
     }
   ],
-  "footer": "Built with ❤ using Preact"
+  "footer": "Built with ❤ using Preact",
+  "temp": [
+    "As you can probably guess from this page, I like simple things. Even though I am a bit shy, I would love to hear from you if you want to chat."
+  ]
 }

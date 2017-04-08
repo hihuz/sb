@@ -80,6 +80,22 @@ h4 {
   width: 4rem;
   height: 4rem;
 }
+.showcase {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.2rem;
+}
+.project {
+  width: 26rem;
+  margin: 0 2rem;
+  height: 26rem;
+  background-color: $dark;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in;
+}
+.project:hover {
+  opacity: 0.6;
+}
 footer {
   text-align: center;
   padding: 2rem 6rem;
