@@ -112,7 +112,8 @@ h4 {
 }
 
 .logo-container img {
-  max-width: 8rem;
+  width: 8rem;
+  height: 8rem;
 }
 
 .intro .logo-container img {
@@ -131,11 +132,46 @@ h4 {
   height: 26rem;
   background-color: $dark;
   cursor: pointer;
-  transition: opacity 0.2s ease-in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.project:hover {
-  opacity: 0.6;
+.project-infos {
+  opacity: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: opacity 0.2s cubic-bezier(.4,0,.2,1);
+  background-color: rgba(0,0,0,0.2);
+  color: $light;
+}
+
+.project:hover .project-infos {
+  opacity: 1;
+}
+
+.project-name, .project-desc {
+  text-align: center;
+}
+
+.project-logos {
+  display: flex;
+  justify-content: center;
+}
+
+.project-name, .project-logos, .project-desc {
+  margin: 1.6rem 0;
+}
+
+.project-tech {
+  text-align: center;
+}
+
+.project-tech img {
+  height: 4rem;
+  width: 4rem;
 }
 
 footer {
