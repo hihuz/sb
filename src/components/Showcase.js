@@ -2,7 +2,7 @@ import React from "react";
 
 const Showcase = () => (
   <div className="showcase">
-    <div className="project">
+    <a className="project" href="https://github.com/hihuz/meny">
       <div className="project-infos">
         <h2 className="project-name">Meny</h2>
         <p className="project-desc">
@@ -20,10 +20,10 @@ const Showcase = () => (
           </div>
         </div>
       </div>
-    </div>
-    <div className="project">
+    </a>
+    <a className="project" href="https://github.com/hihuz/mine-sweeper">
       <div className="project-infos" />
-    </div>
+    </a>
     <div className="project">
       <div className="project-infos" />
     </div>
