@@ -2,6 +2,7 @@ import React from "react";
 import LinkBar from "./LinkBar";
 import { loadState, saveState } from "../utils/localStorage";
 
+// The updated greeting on revisits is disabled for now but i'm keeping the logic here for later
 class Intro extends React.Component {
   constructor(props) {
     super(props);
@@ -19,7 +20,7 @@ class Intro extends React.Component {
         <article className="intro">
           <h1>{title}</h1>
           <div className="logo-container">
-            <img src="../public/hihuz.jpg" alt="hihuz" />
+            <img src="../public/hihuz.png" alt="hihuz" />
           </div>
           {text.map(para => {
             const markup = { __html: para };

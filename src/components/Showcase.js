@@ -38,7 +38,20 @@ const Showcase = () => (
       </div>
     </a>
     <a className="project" href="https://github.com/hihuz/sb">
-      <div className="project-infos" />
+      <div className="project-infos">
+        <h2 className="project-name">sb</h2>
+        <p className="project-desc">
+          The code for this very web page
+        </p>
+        <div className="project-logos">
+          <div className="project-tech">
+            <img src="../public/react.png" alt="react" />React
+          </div>
+          <div className="project-tech">
+            <img src="../public/preact.png" alt="preact" />Preact
+          </div>
+        </div>
+      </div>
     </a>
   </div>
 );
