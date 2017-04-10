@@ -41,7 +41,7 @@ const Showcase = () => (
       <div className="project-infos">
         <h2 className="project-name">sb</h2>
         <p className="project-desc">
-          The code for this very web page
+          The code for this very web site
         </p>
         <div className="project-logos">
           <div className="project-tech">
