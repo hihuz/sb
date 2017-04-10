@@ -2,7 +2,11 @@ import React from "react";
 
 const Showcase = () => (
   <div className="showcase">
-    <a className="project" href="https://github.com/hihuz/meny">
+    <a
+      className="project"
+      href="https://github.com/hihuz/meny"
+      style={{ backgroundImage: `url("/public/meny.jpg")` }}
+    >
       <div className="project-infos">
         <h2 className="project-name">Meny</h2>
         <p className="project-desc">
@@ -21,7 +25,11 @@ const Showcase = () => (
         </div>
       </div>
     </a>
-    <a className="project" href="https://github.com/hihuz/bomb-cleaner">
+    <a
+      className="project"
+      href="https://github.com/hihuz/bomb-cleaner"
+      style={{ backgroundImage: `url("/public/bomb-cleaner.jpg")` }}
+    >
       <div className="project-infos">
         <h2 className="project-name">Bomb-Cleaner</h2>
         <p className="project-desc">
@@ -37,7 +45,11 @@ const Showcase = () => (
         </div>
       </div>
     </a>
-    <a className="project" href="https://github.com/hihuz/sb">
+    <a
+      className="project"
+      href="https://github.com/hihuz/sb"
+      style={{ backgroundImage: `url("/public/sb.jpg")` }}
+    >
       <div className="project-infos">
         <h2 className="project-name">sb</h2>
         <p className="project-desc">
