@@ -5,6 +5,6 @@ import Page from "./components/Page";
 render(<Page />, document.getElementById("page"));
 
 /*
-- adjust padding of showcase info screens
-- for small screens, also adjust width / height
+- add a more visible separation for showcase projects
+- test / verify the added colors
 */
