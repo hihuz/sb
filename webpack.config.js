@@ -7,7 +7,7 @@ module.exports = env => ({
   entry: "./src/index.js",
   devtool: env.prod ? "cheap-module-source-map" : "eval",
   output: {
-    path: "/dist",
+    path: path.join(__dirname, "/dist"),
     filename: "bundle.js",
     publicPath: "/dist"
   },
@@ -15,7 +15,11 @@ module.exports = env => ({
     historyApiFallback: true
   },
   resolve: {
-    extensions: [".js", ".json"]
+    extensions: [".js", ".json"],
+    alias: {
+      react: "preact-compat",
+      "react-dom": "preact-compat"
+    }
   },
   stats: {
     colors: true,
