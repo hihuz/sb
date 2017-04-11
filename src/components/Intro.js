@@ -18,15 +18,15 @@ class Intro extends React.Component {
     return (
       <section className="sb-intro">
         <article className="intro">
-          <h1>{title}</h1>
+          <h1 className="intro-title">{title}</h1>
           <div className="logo-container">
             <img src="../public/hihuz.png" alt="hihuz" />
           </div>
           {text.map(para => {
             const markup = { __html: para };
-            return <h4 key={para} dangerouslySetInnerHTML={markup} />;
+            return <h4 className="intro-text" key={para} dangerouslySetInnerHTML={markup} />;
           })}
-          <h4>{greetings[0]}</h4>
+          <h4 className="intro-text">{greetings[0]}</h4>
           <LinkBar />
         </article>
       </section>
