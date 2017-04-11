@@ -2,6 +2,7 @@ const path = require("path");
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const OfflinePlugin = require("offline-plugin");
 
 module.exports = env => ({
   context: __dirname,
@@ -57,6 +58,7 @@ module.exports = env => ({
     new HtmlWebpackPlugin({
       template: "./src/index.html.ejs"
     }),
-    new ExtractTextPlugin("main.css")
+    new ExtractTextPlugin("main.css"),
+    new OfflinePlugin()
   ].concat(env.prod ? [new BundleAnalyzerPlugin()] : [])
 });
