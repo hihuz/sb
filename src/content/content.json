@@ -25,8 +25,38 @@
       "name": "code",
       "title": "Code / Projects",
       "text": [
-        "The main language I use is JavaScript (along with CSS of course), and while I don't think a long list of libraries and frameworks is of any use, I will mention that I am gravitating a lot around the React ecosystem these days.",
+        "The main language I use is JavaScript (along with CSS of course), and while I don't think a long list of libraries and frameworks is particularly useful, I will mention that I am gravitating a lot around the React ecosystem these days (this means that I commonly use tools like yarn/npm, webpack, babel, jest...).",
         "Even though my paid work can't be showcased, I really like using some of my free time to hack on personal projects, and try my hand at technologies that I find interesting. Most of them will be on github, and some recent examples can be seen below."
+      ],
+      "projects": [
+        {
+          "id": "meny",
+          "name": "Meny",
+          "desc": "A recipe sharing / editing app, work in progress",
+          "techs": [
+            "react",
+            "redux",
+            "firebase"
+          ]
+        },
+        {
+          "id": "bomb-cleaner",
+          "name": "Bomb-Cleaner",
+          "desc": "A Mine-Sweeper game clone",
+          "techs": [
+            "react",
+            "redux"
+          ]
+        },
+        {
+          "id": "sb",
+          "name": "sb",
+          "desc": "The code for this very website",
+          "techs": [
+            "react",
+            "preact"
+          ]
+        }
       ]
     },
     {
