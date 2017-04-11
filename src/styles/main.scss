@@ -146,14 +146,16 @@ h4 {
   fill: $text;
   width: 4rem;
   height: 4rem;
-  transition: fill .2s;
+  transition: fill .2s, transform .2s;
 }
 
 .link-container:hover svg {
   fill: $accent;
 }
-.link-container a:active svg {
-  animation: pulse .3s cubic-bezier(.4,0,.2,1);
+
+.link-container:active svg {
+  -webkit-transform: scale(.9);
+  transform: scale(.9);
 }
 
 .logo-container {
@@ -188,7 +190,6 @@ h4 {
   width: 26rem;
   margin: 1rem 0;
   height: 26rem;
-  background-color: $dark;
   display: flex;
   justify-content: center;
   align-items: center;

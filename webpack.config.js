@@ -1,6 +1,7 @@
 const path = require("path");
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = env => ({
   context: __dirname,
@@ -45,23 +46,17 @@ module.exports = env => ({
       },
       {
         test: /\.scss$/,
-        use: [
-          {
-            loader: "style-loader"
-          },
-          {
-            loader: "css-loader"
-          },
-          {
-            loader: "sass-loader"
-          }
-        ]
+        use: ExtractTextPlugin.extract({
+          fallback: "style-loader",
+          use: ["css-loader", "sass-loader"]
+        })
       }
     ]
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/index.html.ejs"
-    })
+    }),
+    new ExtractTextPlugin("main.css")
   ].concat(env.prod ? [new BundleAnalyzerPlugin()] : [])
 });
