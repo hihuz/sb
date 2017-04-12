@@ -60,5 +60,5 @@ module.exports = env => ({
     }),
     new ExtractTextPlugin("main.css"),
     new OfflinePlugin()
-  ].concat(env.prod ? [new BundleAnalyzerPlugin()] : [])
+  ]
 });
