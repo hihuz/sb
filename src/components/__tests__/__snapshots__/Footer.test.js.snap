@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Snapshot 1`] = `
+<footer>
+  Built with ❤ using Preact
+</footer>
+`;
