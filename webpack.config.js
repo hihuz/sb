@@ -3,6 +3,7 @@ const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPl
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const OfflinePlugin = require("offline-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = env => ({
   context: __dirname,
@@ -11,7 +12,7 @@ module.exports = env => ({
   output: {
     path: path.join(__dirname, "/dist"),
     filename: "bundle.js",
-    publicPath: "/dist"
+    publicPath: ""
   },
   devServer: {
     historyApiFallback: true
@@ -59,6 +60,7 @@ module.exports = env => ({
       template: "./src/index.html.ejs"
     }),
     new ExtractTextPlugin("main.css"),
+    new CopyWebpackPlugin([{ from: "public" }]),
     new OfflinePlugin()
   ]
 });

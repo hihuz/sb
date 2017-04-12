@@ -20,7 +20,7 @@ class Intro extends React.Component {
         <article className="intro">
           <h1 className="intro-title">{title}</h1>
           <div className="logo-container">
-            <img src="../public/hihuz.jpg" alt="hihuz" />
+            <img src="hihuz.jpg" alt="hihuz" />
           </div>
           {text.map(para => {
             const markup = { __html: para };

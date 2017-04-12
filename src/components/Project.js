@@ -1,7 +1,7 @@
 import React from "react";
 
 const Project = ({ id, name, desc, techs }) => {
-  const styles = { backgroundImage: `url("/public/${id}.jpg")` };
+  const styles = { backgroundImage: `url("${id}.jpg")` };
   return (
     <a className="project" href={`https://github.com/hihuz/${id}`} style={styles}>
       <div className="project-infos">
@@ -12,7 +12,7 @@ const Project = ({ id, name, desc, techs }) => {
         <div className="project-logos">
           {techs.map(tech => (
             <div className="project-tech" key={tech}>
-              <img src={`../public/${tech}.png`} alt={tech} />{tech}
+              <img src={`${tech}.png`} alt={tech} />{tech}
             </div>
           ))}
         </div>

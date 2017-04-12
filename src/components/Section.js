@@ -6,7 +6,7 @@ const Section = ({ name, title, text, projects }) => (
     <article>
       <h1>{title}</h1>
       <div className="logo-container">
-        <img src={`../public/${name}.svg`} alt={title} />
+        <img src={`${name}.svg`} alt={title} />
       </div>
       {text.map(para => <p key={para}>{para}</p>)}
       {name === "code" ? <Showcase projects={projects} /> : null}
