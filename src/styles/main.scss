@@ -1,6 +1,6 @@
 $base: #1663c7;
 $main: #d9dee6;
-$accent: #FF6307;
+$accent: #ff6307;
 $text: #333e4b;
 $light: #f8f9fb;
 $dark: #d4dae2;
@@ -168,6 +168,7 @@ h4 {
 }
 
 .logo-container img {
+  border-radius: 50%;
   width: 8rem;
   height: 8rem;
 
@@ -273,6 +274,9 @@ strong {
 }
 
 @media (min-width: 900px) {
+  .project {
+    box-shadow: inset 0px 0px 2px 1px rgba(62,70,80,.4);
+  }
 
   .project-infos {
     background-color: rgba(62,70,80,.9);
