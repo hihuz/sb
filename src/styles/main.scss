@@ -98,7 +98,6 @@ h4 {
 
 .intro-text {
   opacity: 0;
-  -webkit-transform: translateY(100%);
   transform: translateY(100%);
   -webkit-animation: text-appear .3s cubic-bezier(.4,0,.2,1);
   animation: text-appear .3s cubic-bezier(.4,0,.2,1);
@@ -119,7 +118,6 @@ h4 {
 }
 
 .link-container {
-  -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-animation: icon-appear .3s cubic-bezier(.4,0,.2,1);
   animation: icon-appear .3s cubic-bezier(.4,0,.2,1);
@@ -149,7 +147,6 @@ h4 {
 }
 
 .link-container:active svg {
-  -webkit-transform: scale(.9);
   transform: scale(.9);
 }
 
@@ -158,7 +155,6 @@ h4 {
 }
 
 .sb-intro .logo-container {
-  -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-animation: icon-appear .3s cubic-bezier(.4,0,.2,1);
   animation: icon-appear .3s cubic-bezier(.4,0,.2,1);
