@@ -12,7 +12,7 @@ const Intro = ({ title, text, greetings }) => (
         const markup = { __html: para };
         return <h4 className="intro-text" key={para} dangerouslySetInnerHTML={markup} />;
       })}
-      <h4 className="intro-text">{greetings[0]}</h4>
+      <h4 className="intro-text">{greetings}</h4>
       <LinkBar />
     </article>
   </section>

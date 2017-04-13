@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Intro Snapshot 1`] = `
+<section
+  className="sb-intro"
+>
+  <article
+    className="intro"
+  >
+    <h1
+      className="intro-title"
+    />
+    <div
+      className="logo-container"
+    >
+      <img
+        alt="hihuz"
+        src="hihuz.jpg"
+      />
+    </div>
+    <h4
+      className="intro-text"
+    />
+    <LinkBar />
+  </article>
+</section>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project Snapshot 1`] = `
+<a
+  className="project"
+  href="https://github.com/hihuz/undefined"
+  style={
+    Object {
+      "backgroundImage": "url(\\"undefined.jpg\\")",
+    }
+  }
+>
+  <div
+    className="project-infos"
+  >
+    <h2
+      className="project-name"
+    />
+    <p
+      className="project-desc"
+    />
+    <div
+      className="project-logos"
+    />
+  </div>
+</a>
+`;

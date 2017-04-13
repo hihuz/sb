@@ -5,10 +5,7 @@
       "I'm <strong>Sylvain Boulade</strong>, a web developer from Toulouse (France).",
       "I'm currently focusing mainly on JavaScript and modern front-end technologies."
     ],
-    "greetings": [
-      "Nice to meet you !",
-      "Welcome back !"
-    ]
+    "greetings": "Nice to meet you !"
   },
   "articles": [
     {
