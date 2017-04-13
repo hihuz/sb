@@ -1,12 +1,11 @@
 import React from "react";
-import content from "../content/content.json";
 import Intro from "./Intro";
 import Section from "./Section";
 
-const Main = () => (
+const Main = ({ intro, articles }) => (
   <main>
-    <Intro {...content.intro} />
-    {content.articles.map(article => <Section key={article.name} {...article} />)}
+    <Intro {...intro} />
+    {articles.map(article => <Section key={article.name} {...article} />)}
   </main>
 );
 
