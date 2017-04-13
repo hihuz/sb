@@ -1,3 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Footer Snapshot 1`] = `<footer />`;
+exports[`Footer Snapshot 1`] = `
+<footer
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": undefined,
+    }
+  }
+/>
+`;
