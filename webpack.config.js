@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const OfflinePlugin = require("offline-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
+const StyleExtHtmlWebpackPlugin = require("style-ext-html-webpack-plugin");
 
 module.exports = env => ({
   context: __dirname,
@@ -60,6 +61,9 @@ module.exports = env => ({
       template: "./src/index.html.ejs"
     }),
     new ExtractTextPlugin("main.css"),
+    new StyleExtHtmlWebpackPlugin({
+      minify: true
+    }),
     new CopyWebpackPlugin([{ from: "public" }]),
     new OfflinePlugin()
   ]
