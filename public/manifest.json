@@ -1,5 +1,5 @@
 {
-  "name": "hihuz homepage",
+  "name": "sb homepage",
   "author": "Sylvain Boulade",
   "icons": [
     {
@@ -14,6 +14,6 @@
     }
   ],
   "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "background_color": "#333e4b",
   "display": "standalone"
 }
