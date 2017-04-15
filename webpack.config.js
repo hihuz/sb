@@ -1,11 +1,10 @@
 const path = require("path");
-const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const OfflinePlugin = require("offline-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
-const StyleExtHtmlWebpackPlugin = require("style-ext-html-webpack-plugin");
-const ScriptExtHtmlWebpackPlugin = require("script-ext-html-webpack-plugin");
+// const StyleExtHtmlWebpackPlugin = require("style-ext-html-webpack-plugin");
+// const ScriptExtHtmlWebpackPlugin = require("script-ext-html-webpack-plugin");
 
 module.exports = env => ({
   context: __dirname,
@@ -61,13 +60,13 @@ module.exports = env => ({
     new HtmlWebpackPlugin({
       template: "./src/index.html.ejs"
     }),
-    new ScriptExtHtmlWebpackPlugin({
-      defaultAttribute: "async"
-    }),
+    // new ScriptExtHtmlWebpackPlugin({
+    //   defaultAttribute: "async"
+    // }),
     new ExtractTextPlugin("main.css"),
-    new StyleExtHtmlWebpackPlugin({
-      minify: true
-    }),
+    // new StyleExtHtmlWebpackPlugin({
+    //   minify: true
+    // }),
     new CopyWebpackPlugin([{ from: "public" }]),
     new OfflinePlugin()
   ]
