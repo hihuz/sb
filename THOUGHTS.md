@@ -22,6 +22,10 @@ I am more familiar with the setup and syntax so I will be able to use this for a
 
 I should also mention that I had a bit of a hard time making it work on VSCode, firstly I had to remove the javascript.validate option as it was raising errors, and secondly I couldn't figure out how to get correct syntax highlighting. I'll give it another try though.
 
+### Preact
+
+After using the regular React lib for developing, I swapped to preact using preact-compat and aliasing react in my webpack config. Very easy to switch an npm package and a couple lines is all it took, and the reduced bundle size makes this totally worth it.
+
 
 ### Webpack Offline Plugin
 
