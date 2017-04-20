@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link Snapshot 1`] = `
+<div
+  className="link-container"
+>
+  <a>
+    <svg>
+      <path />
+    </svg>
+  </a>
+</div>
+`;
