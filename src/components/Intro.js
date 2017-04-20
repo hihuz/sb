@@ -1,7 +1,7 @@
 import React from "react";
 import LinkBar from "./LinkBar";
 
-const Intro = ({ title, text, greetings }) => (
+const Intro = ({ title, text, greetings, links }) => (
   <section className="sb-intro">
     <article className="intro">
       <h1 className="intro-title">{title}</h1>
@@ -13,7 +13,7 @@ const Intro = ({ title, text, greetings }) => (
         return <h4 className="intro-text" key={para} dangerouslySetInnerHTML={markup} />;
       })}
       <h4 className="intro-text">{greetings}</h4>
-      <LinkBar />
+      <LinkBar links={links} />
     </article>
   </section>
 );

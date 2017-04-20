@@ -5,7 +5,7 @@ import LinkBar from "../LinkBar";
 
 describe("LinkBar", () => {
   test("Snapshot", () => {
-    const component = shallow(<LinkBar />);
+    const component = shallow(<LinkBar links={[]} />);
     const tree = shallowToJson(component);
     expect(tree).toMatchSnapshot();
   });
