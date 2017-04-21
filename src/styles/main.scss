@@ -1,5 +1,4 @@
 $base: #1663c7;
-$main: #d9dee6;
 $accent: #ff6307;
 $text: #333e4b;
 $light: #f8f9fb;
@@ -27,10 +26,6 @@ $dark: #d4dae2;
 @keyframes text-appear {
   0% { transform: translateY(100%); opacity: 0; }
   100% { transform: translateY(0); opacity: 1; }
-}
-
-html, body {
-  height: 100%;
 }
 
 html {
