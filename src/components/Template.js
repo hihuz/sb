@@ -37,7 +37,7 @@ const Template = ({ children }) => (
 
     <body>
       {children}
-      <script src="sw.js" />
+      <script src="bundle.js" />
     </body>
 
   </html>
