@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const StaticSiteGeneratorPlugin = require("static-site-generator-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const OfflinePlugin = require("offline-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
@@ -11,6 +12,7 @@ module.exports = env => ({
   output: {
     path: path.join(__dirname, "/dist"),
     filename: "bundle.js",
+    libraryTarget: "umd",
     publicPath: ""
   },
   devServer: {
@@ -55,8 +57,11 @@ module.exports = env => ({
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin({
-      template: "./src/index.html.ejs"
+    new StaticSiteGeneratorPlugin({
+      globals: {
+        navigator: {},
+        window: {}
+      }
     }),
     new ExtractTextPlugin("main.css"),
     new CopyWebpackPlugin([{ from: "public" }]),
