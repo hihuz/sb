@@ -20,7 +20,7 @@ const Template = ({ children }) => (
 
     <body>
       {children}
-      <script src="install.js" />
+      <script src="install.js" async />
     </body>
 
   </html>
