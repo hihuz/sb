@@ -34,6 +34,9 @@ That's all it took and it works great, pretty neat.
 
 When i'll use it on bigger projects I will most likely need to dig a bit deeper on the options / customization.
 
+### static-site-generator-webpack-plugin
+
+On second thought, I realized that I didn't need to send any react-related js to the browser, if I could generate static markup from my react components in the build step. Looking around, this plugin seemed like a good fit (it is the one used by gatsby). I had to tweak my webpack config a bit but overall it was not too hard to implement.
 
 ### Visual Studio Code
 
