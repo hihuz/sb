@@ -68,7 +68,7 @@
           "desc": "The code for this very website",
           "techs": [
             "react",
-            "preact"
+            "webpack"
           ]
         }
       ]

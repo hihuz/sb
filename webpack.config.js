@@ -1,5 +1,4 @@
 const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 const StaticSiteGeneratorPlugin = require("static-site-generator-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const OfflinePlugin = require("offline-plugin");
@@ -7,11 +6,14 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = env => ({
   context: __dirname,
-  entry: "./src/index.js",
+  entry: {
+    install: "./src/index.js",
+    static: "./src/static.js"
+  },
   devtool: env.prod ? "cheap-module-source-map" : "eval",
   output: {
     path: path.join(__dirname, "/dist"),
-    filename: "bundle.js",
+    filename: "[name].js",
     libraryTarget: "umd",
     publicPath: ""
   },
@@ -19,11 +21,7 @@ module.exports = env => ({
     historyApiFallback: true
   },
   resolve: {
-    extensions: [".js", ".json"],
-    alias: {
-      react: "preact-compat",
-      "react-dom": "preact-compat"
-    }
+    extensions: [".js", ".json"]
   },
   stats: {
     colors: true,
