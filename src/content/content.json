@@ -30,8 +30,8 @@
       "title": "About me",
       "text": [
         "After studying computer science at Paul Sabatier university in Toulouse, I found (about 6 years ago) a job as programmer for Harris Interactive (now a part of Toluna group), a market research company based in Paris. It was a whole new life and experience for me to work there and live in Paris.",
-        "About a year and a half ago, I had an opportunity to come back to my home town of Toulouse (following my partner who was starting new studies there), and I have been working (for the same company) remotely since then.",
-        "Throughout the years I held various job titles (not that the title matters, but I am now a \"Technical consultant\") with increasing responsibilities, but the bulk of my work has always consisted of programming with an emphasis on the front-end side of things, and with the rest of my work time split between project management, mentorship, research, contractors handling, and more.",
+        "About 3 years ago, I had an opportunity to come back to my home town of Toulouse (following my partner who was starting new studies there), and I kept working (for the same company) remotely for about 2 years as a \"Technical consultant\" (not that the title really matters). While working there, I acquired a strong experience in front-end web development, but also in project management, mentorship, contractors handling, and more. ",
+        "Last year I felt it was time for a change and I had the exciting opportunity to join Occitech as a web developer where I have been working mainly on a product called Front-Commerce whose goal is to drastically improve the way e-commerce sites are built by providing a pluggable and modern front-end layer (a GraphQL middleware and a React SPA/PWA)  on top of existing e-commerce solutions. I have learned a lot working on this ambitious project along with the Occitech team.",
         "I am very enthusiastic and curious in general, but particularly about programming. I love learning new things and challenging what I know and learn. The pace at which front-end technologies have been evolving these past few years make them a very good fit for me. This is not to say that I don't enjoy other aspects of programming, and I am always open to new opportunities."
       ]
     },
@@ -40,26 +40,26 @@
       "title": "Code / Projects",
       "text": [
         "The main language I use is JavaScript (along with CSS of course), and while I don't think a long list of libraries and frameworks is particularly useful, I will mention that I am gravitating a lot around the React ecosystem these days (this means that I commonly use tools like yarn/npm, webpack, babel, jest...).",
-        "Even though my paid work can't be showcased, I really like using some of my free time to hack on personal projects, and try my hand at technologies that I find interesting. Most of them will be on github, and some recent examples can be seen below."
+        "Even though most of my paid work can't be showcased, I really like using some of my free time to hack on personal projects, and try my hand at technologies that I find interesting. Most of them will be on github, and some recent examples can be seen below."
       ],
       "projects": [
         {
+          "id": "fc-lite",
+          "name": "FC-Lite",
+          "desc": "The open-source, lightweight version of Front-Commerce",
+          "techs": [
+            "react",
+            "graphql"
+          ]
+        },
+        {
           "id": "meny",
           "name": "Meny",
-          "desc": "A recipe sharing / editing app, work in progress",
+          "desc": "A recipe sharing / editing app, a personnal project in progress",
           "techs": [
             "react",
             "redux",
             "firebase"
-          ]
-        },
-        {
-          "id": "bomb-cleaner",
-          "name": "Bomb-Cleaner",
-          "desc": "A Mine-Sweeper game clone",
-          "techs": [
-            "react",
-            "redux"
           ]
         },
         {
