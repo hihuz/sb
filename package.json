@@ -51,7 +51,7 @@
     "jest-cli": "^19.0.2",
     "jsdom": "^9.11.0",
     "json-loader": "0.5.4",
-    "node-sass": "^4.5.2",
+    "node-sass": "^4.8.3",
     "prettier": "^0.22.0",
     "prettier-eslint": "^4.4.0",
     "react-addons-test-utils": "^15.4.1",
