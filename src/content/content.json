@@ -44,7 +44,8 @@
       ],
       "projects": [
         {
-          "id": "fc-lite",
+          "id": "front-commerce-lite",
+          "author": "front-commerce",
           "name": "FC-Lite",
           "desc": "The open-source, lightweight version of Front-Commerce",
           "techs": [
@@ -54,6 +55,7 @@
         },
         {
           "id": "meny",
+          "author": "hihuz",
           "name": "Meny",
           "desc": "A recipe sharing / editing app, a personnal project in progress",
           "techs": [
@@ -64,6 +66,7 @@
         },
         {
           "id": "sb",
+          "author": "hihuz",
           "name": "sb",
           "desc": "The code for this very website",
           "techs": [

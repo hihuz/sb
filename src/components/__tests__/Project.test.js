@@ -5,15 +5,16 @@ import Project from "../Project";
 
 describe("Project", () => {
   test("Snapshot", () => {
-    const component = shallow(<Project techs={[]} />);
+    const component = shallow(<Project id="test" author="hihuz" techs={[]} />);
     const tree = shallowToJson(component);
     expect(tree).toMatchSnapshot();
   });
 
-  test("Should point to github with passed id", () => {
+  test("Should point to github with passed id and author", () => {
     const id = "test";
-    const component = shallow(<Project id={id} techs={[]} />);
-    const expected = `https://github.com/hihuz/${id}`;
+    const author = "hihuz";
+    const component = shallow(<Project id={id} author={author} techs={[]} />);
+    const expected = `https://github.com/${author}/${id}`;
     const actual = component.find("a").props().href;
     expect(actual).toEqual(expected);
   });

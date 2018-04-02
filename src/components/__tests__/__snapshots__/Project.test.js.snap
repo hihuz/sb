@@ -3,10 +3,10 @@
 exports[`Project Snapshot 1`] = `
 <a
   className="project"
-  href="https://github.com/hihuz/undefined"
+  href="https://github.com/hihuz/test"
   style={
     Object {
-      "backgroundImage": "url(\\"undefined.jpg\\")",
+      "backgroundImage": "url(\\"test.jpg\\")",
     }
   }
 >

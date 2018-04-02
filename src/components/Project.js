@@ -1,9 +1,9 @@
 import React from "react";
 
-const Project = ({ id, name, desc, techs }) => {
+const Project = ({ id, author, name, desc, techs }) => {
   const styles = { backgroundImage: `url("${id}.jpg")` };
   return (
-    <a className="project" href={`https://github.com/hihuz/${id}`} style={styles}>
+    <a className="project" href={`https://github.com/${author}/${id}`} style={styles}>
       <div className="project-infos">
         <h2 className="project-name">{name}</h2>
         <p className="project-desc">
