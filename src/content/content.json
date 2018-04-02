@@ -30,7 +30,7 @@
       "title": "About me",
       "text": [
         "After studying computer science at Paul Sabatier university in Toulouse, I found (about 6 years ago) a job as programmer for Harris Interactive (now a part of Toluna group), a market research company based in Paris. It was a whole new life and experience for me to work there and live in Paris.",
-        "About 3 years ago, I had an opportunity to come back to my home town of Toulouse (following my partner who was starting new studies there), and I kept working (for the same company) remotely for about 2 years as a \"Technical consultant\" (not that the title really matters). While working there, I acquired a strong experience in front-end web development, but also in project management, mentorship, contractors handling, and more. ",
+        "About 3 years ago, I had an opportunity to come back to my home town of Toulouse (following my partner who was starting new studies there), and I kept working for the same company remotely for about 2 years as a \"Technical consultant\" (not that the title really matters). While working there, I acquired a strong experience in front-end web development, but also in project management, mentorship, contractors handling, and more.",
         "Last year I felt it was time for a change and I had the exciting opportunity to join Occitech as a web developer where I have been working mainly on a product called Front-Commerce whose goal is to drastically improve the way e-commerce sites are built by providing a pluggable and modern front-end layer (a GraphQL middleware and a React SPA/PWA)  on top of existing e-commerce solutions. I have learned a lot working on this ambitious project along with the Occitech team.",
         "I am very enthusiastic and curious in general, but particularly about programming. I love learning new things and challenging what I know and learn. The pace at which front-end technologies have been evolving these past few years make them a very good fit for me. This is not to say that I don't enjoy other aspects of programming, and I am always open to new opportunities."
       ]
@@ -48,8 +48,8 @@
           "name": "FC-Lite",
           "desc": "The open-source, lightweight version of Front-Commerce",
           "techs": [
-            "react",
-            "graphql"
+            "React",
+            "GraphQL"
           ]
         },
         {
@@ -57,9 +57,9 @@
           "name": "Meny",
           "desc": "A recipe sharing / editing app, a personnal project in progress",
           "techs": [
-            "react",
-            "redux",
-            "firebase"
+            "React",
+            "Redux",
+            "Firebase"
           ]
         },
         {
@@ -67,8 +67,8 @@
           "name": "sb",
           "desc": "The code for this very website",
           "techs": [
-            "react",
-            "webpack"
+            "React",
+            "Webpack"
           ]
         }
       ]
