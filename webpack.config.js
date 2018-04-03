@@ -53,7 +53,7 @@ module.exports = env => ({
             {
               loader: "sass-loader",
               options: {
-                includePaths: ["./src/styles"]
+                includePaths: [path.resolve(__dirname, "src/styles")]
               }
             }
           ],
