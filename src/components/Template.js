@@ -10,7 +10,7 @@ const Template = ({ children }) => (
       <meta name="author" content="Sylvain Boulade" />
       <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
       <link rel="stylesheet" href="main.css" />
-      <title>Sylvain {"'"}hihuz{"'"} Boulade</title>
+      <title>Sylvain Boulade</title>
       <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
       <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
       <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
@@ -27,3 +27,4 @@ const Template = ({ children }) => (
 );
 
 export default Template;
+
