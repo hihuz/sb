@@ -8,6 +8,10 @@ const Template = ({ children }) => (
       <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="author" content="Sylvain Boulade" />
+      <meta
+        name="description"
+        content="This is Sylvain's homepage. He's a bit of an introvert but he does not bite. You should contact him."
+      />
       <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
       <link rel="stylesheet" href="main.css" />
       <title>Sylvain Boulade</title>
@@ -27,4 +31,3 @@ const Template = ({ children }) => (
 );
 
 export default Template;
-
