@@ -232,7 +232,7 @@ strong {
   color: $accentColor;
 }
 
-@media (min-width: $mobileBreakpoint) {
+@media screen and (min-width: $mobileBreakpoint) {
   article {
     width: 120rem;
     max-width: 86%;
@@ -249,7 +249,7 @@ strong {
   .showcase {
     flex-direction: row;
   }
-  
+
   .project {
     margin: $baseSpacing;
     width: 26rem;
@@ -276,7 +276,7 @@ strong {
   }
 }
 
-@media (min-width: $tabletBreakpoint) {
+@media screen and (min-width: $tabletBreakpoint) {
   .project {
     box-shadow: inset 0px 0px 2px 1px rgba(62,70,80,.4);
   }
