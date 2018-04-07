@@ -5,7 +5,10 @@ exports[`Link Snapshot 1`] = `
   className="link-container"
 >
   <a>
-    <svg>
+    <svg
+      focusable="false"
+      role="presentation"
+    >
       <path />
     </svg>
   </a>
