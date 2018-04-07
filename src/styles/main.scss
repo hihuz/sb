@@ -169,7 +169,9 @@ h4 {
 
 .showcase {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
   margin-top: $baseSpacing * 1.5;
 }
@@ -230,7 +232,7 @@ strong {
   color: $accentColor;
 }
 
-@media (min-width: 640px) {
+@media (min-width: $mobileBreakpoint) {
   article {
     width: 120rem;
     max-width: 86%;
@@ -244,6 +246,10 @@ strong {
     font-size: $largeSize;
   }
 
+  .showcase {
+    flex-direction: row;
+  }
+  
   .project {
     margin: $baseSpacing;
     width: 26rem;
@@ -270,7 +276,7 @@ strong {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: $tabletBreakpoint) {
   .project {
     box-shadow: inset 0px 0px 2px 1px rgba(62,70,80,.4);
   }
