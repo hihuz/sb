@@ -9,7 +9,7 @@ const Section = ({ name, title, text, projects }) => (
         <img src={`${name}.svg`} alt={title} />
       </div>
       {text.map(para => <p key={para}>{para}</p>)}
-      {name === "code" ? <Showcase projects={projects} /> : null}
+      {name === "code" && <Showcase projects={projects} />}
     </article>
   </section>
 );
