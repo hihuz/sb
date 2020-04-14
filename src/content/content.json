@@ -1,9 +1,9 @@
 {
   "intro": {
-    "title": "Hi !",
+    "title": "Hi!",
     "text": [
-      "I'm <strong>Sylvain Boulade</strong>, a web developer from Toulouse (France).",
-      "I'm currently focusing mainly on JavaScript and modern front-end technologies."
+      "I'm <strong>Sylvain Boulade</strong>, a software engineer from Toulouse (France).",
+      "I'm currently focusing mainly on the modern JavaScript / TypeScript ecosystem and on financial technology."
     ],
     "greetings": "Nice to meet you !",
     "links": [
@@ -16,7 +16,7 @@
       {
         "url": "https://www.twitter.com/hihuz",
         "viewbox": "-1 0 28 28",
-        "name": "hihuz twitter account",        
+        "name": "hihuz twitter account",
         "path": "M25.312 6.375c-0.688 1-1.547 1.891-2.531 2.609 0.016 0.219 0.016 0.438 0.016 0.656 0 6.672-5.078 14.359-14.359 14.359-2.859 0-5.516-0.828-7.75-2.266 0.406 0.047 0.797 0.063 1.219 0.063 2.359 0 4.531-0.797 6.266-2.156-2.219-0.047-4.078-1.5-4.719-3.5 0.313 0.047 0.625 0.078 0.953 0.078 0.453 0 0.906-0.063 1.328-0.172-2.312-0.469-4.047-2.5-4.047-4.953v-0.063c0.672 0.375 1.453 0.609 2.281 0.641-1.359-0.906-2.25-2.453-2.25-4.203 0-0.938 0.25-1.797 0.688-2.547 2.484 3.062 6.219 5.063 10.406 5.281-0.078-0.375-0.125-0.766-0.125-1.156 0-2.781 2.25-5.047 5.047-5.047 1.453 0 2.766 0.609 3.687 1.594 1.141-0.219 2.234-0.641 3.203-1.219-0.375 1.172-1.172 2.156-2.219 2.781 1.016-0.109 2-0.391 2.906-0.781z"
       },
       {
@@ -32,50 +32,41 @@
       "name": "about",
       "title": "About me",
       "text": [
-        "After studying computer science at Paul Sabatier university in Toulouse, I found (about 6 years ago) a job as programmer for Harris Interactive (now a part of Toluna group), a market research company based in Paris. It was a whole new life and experience for me to work there and live in Paris.",
-        "About 3 years ago, I had an opportunity to come back to my home town of Toulouse (following my partner who was starting new studies there), and I kept working for the same company remotely for about 2 years as a \"Technical consultant\" (not that the title really matters). While working there, I acquired a strong experience in front-end web development, but also in project management, mentorship, contractors handling, and more.",
-        "Last year I felt it was time for a change and I had the exciting opportunity to join Occitech as a web developer where I have been working mainly on a product called Front-Commerce whose goal is to drastically improve the way e-commerce sites are built by providing a pluggable and modern front-end layer (a GraphQL middleware and a React SPA/PWA)  on top of existing e-commerce solutions. I have learned a lot working on this ambitious project along with the Occitech team.",
-        "I am very enthusiastic and curious in general, but particularly about programming. I love learning new things and challenging what I know and learn. The pace at which front-end technologies have been evolving these past few years make them a very good fit for me. This is not to say that I don't enjoy other aspects of programming, and I am always open to new opportunities."
+        "I am currently working full time as a senior software engineer for Kontist, a Fintech company based in Berlin. I live in Toulouse, France, and chose to work remotely, going to Berlin every few months to catch up with my colleagues.",
+        "I've been working for Kontist since February 2019, and I've been involved in several major technical projects of the company, including an overhaul of our transactions system, a migration of our entire backend to TypeScript and GraphQL, the implementation of a TypeScript SDK (and the corresponding oAuth2 flow) allowing third parties to use our financial system, and much more.",
+        "Even if I've been working more on the backend recently, I have not forgotten my frontend roots, and I have also been working closely with the Kontist product team and taken responsibility over major customer-facing features in our native and web apps, such as a search functionality for transactions and transfers, a multi-factor authentication flow, and a continuous effort to diagnose and improve our applications performance.",
+        "I have been working as a professional software developer for some time now: my career started in 2011, and before Kontist I have worked for several companies in various business domains such as e-commerce, market research, critical operations (e.g. software dedicated to firefighting departments).",
+        "Over the years I went back and forth with my emphasis on backend and frontend, I switched domains and company types a few times, and in the process acquired a unique set of skills and perspective when it comes to problem solving."
       ]
     },
     {
       "name": "code",
       "title": "Code / Projects",
       "text": [
-        "The main language I use is JavaScript (along with CSS of course), and while I don't think a long list of libraries and frameworks is particularly useful, I will mention that I am gravitating a lot around the React ecosystem these days (this means that I commonly use tools like yarn/npm, webpack, babel, jest...).",
-        "Even though most of my paid work can't be showcased, I really like using some of my free time to hack on personal projects, and try my hand at technologies that I find interesting. Most of them will be on github, and some recent examples can be seen below."
+        "JavaScript has always been my main language of choice, and the rapid evolution of the language and its ecosystem in recent years has kept me interested. I am of course open to, and enjoy working with other languages as well.",
+        "Even though most of my paid work can't be showcased, I've had the opportunity to champion and contribute to a few open source projects recently and some examples can be seen below."
       ],
       "projects": [
         {
-          "id": "front-commerce-lite",
-          "author": "front-commerce",
-          "name": "FC-Lite",
-          "desc": "The open-source, lightweight version of Front-Commerce",
-          "techs": [
-            "React",
-            "GraphQL"
-          ]
+          "id": "kontist-sdk",
+          "projectUrl": "kontist/js-sdk",
+          "title": "Kontist SDK",
+          "desc": "TypeScript SDK for other apps and devs to connect to Kontist",
+          "techs": ["TypeScript", "GraphQL"]
         },
         {
-          "id": "meny",
-          "author": "hihuz",
-          "name": "Meny",
-          "desc": "A recipe sharing / editing app, a personnal project in progress",
-          "techs": [
-            "React",
-            "Redux",
-            "Firebase"
-          ]
+          "id": "kontist-dev",
+          "projectUrl": "kontist/kontist.github.io",
+          "title": "Kontist Dev Portal",
+          "desc": "Public site for devs, including an app to manage oAuth2 clients",
+          "techs": ["TypeScript", "React"]
         },
         {
-          "id": "sb",
-          "author": "hihuz",
-          "name": "sb",
-          "desc": "The code for this very website",
-          "techs": [
-            "React",
-            "Webpack"
-          ]
+          "id": "type-graphql",
+          "projectUrl": "MichalLytek/type-graphql/pull/521",
+          "title": "TypeGraphQL",
+          "desc": "A TypeScript+GraphQL library I was grateful to contribute to",
+          "techs": ["TypeScript", "GraphQL"]
         }
       ]
     },
@@ -83,9 +74,9 @@
       "name": "misc",
       "title": "Other stuff",
       "text": [
-        "When I'm not working, I can very often be found writing code for personal projects, reading articles, watching talks and workshops, and following the latest front-end trends on my twitter feed.",
-        "Besides programming, I enjoy playing classical music on my piano. I took lessons for more than ten years when I was a kid, and after a very long break I have started playing again about two years ago. I confess a soft spot for Beethoven.",
-        "I also like to relax playing video games on my PC (Hearthstone mostly these days, even though I have played a copious number of games in the past), reading novels, watching movies and shows, listening to music, running and cooking.",
+        "When I'm not working, I still like to spend some time discovering new work related ideas and trends, and keep improving my engineering skills.",
+        "But I of course have other things in my life: I enjoy playing classical music on my piano, reading books and novels and talking about them, running, cooking nice meals at home, and many more things.",
+        "I have also been a video game player for the majority of my life now, with a lot of different styles appealing to me over the years, most recently replaying World of Warcraft through Classic, and playing Teamfight Tactics.",
         "Please reach out if you want to know more about me."
       ]
     }
