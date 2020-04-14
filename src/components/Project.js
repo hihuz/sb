@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-const Project = ({ id, author, name, desc, techs }) => {
+const Project = ({ id, title, desc, techs, projectUrl }) => {
   const styles = { backgroundImage: `url("${id}.jpg")` };
   return (
-    <a className="project" href={`https://github.com/${author}/${id}`} style={styles}>
+    <a className="project" href={`https://github.com/${projectUrl}`} style={styles}>
       <div className="project-infos">
-        <h2 className="project-name">{name}</h2>
+        <h2 className="project-title">{title}</h2>
         <p className="project-desc">
           {desc}
         </p>

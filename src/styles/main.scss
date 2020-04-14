@@ -197,8 +197,9 @@ h4 {
   color: $lightGrey;
 }
 
-.project-name, .project-desc {
+.project-title, .project-desc {
   text-align: center;
+  padding: 0 0.8rem;
 }
 
 .project-logos {
@@ -206,7 +207,7 @@ h4 {
   justify-content: center;
 }
 
-.project-name, .project-tech, .project-desc {
+.project-title, .project-tech, .project-desc {
   margin: 1.6rem 0;
 }
 
@@ -287,7 +288,7 @@ strong {
     transition: opacity .3s cubic-bezier(.4,0,.2,1);
   }
 
-  .project-name, .project-tech, .project-desc {
+  .project-title, .project-tech, .project-desc {
     -webkit-backface-visibility: hidden;
     transform: translateY(75%);
     opacity: 0;
@@ -295,8 +296,8 @@ strong {
   }
 
   .project:hover {
-    .project-infos, .project-name, .project-desc, .project-tech { opacity: 1; }
-    .project-name, .project-desc, .project-tech { transform: translateY(0); }
+    .project-infos, .project-title, .project-desc, .project-tech { opacity: 1; }
+    .project-title, .project-desc, .project-tech { transform: translateY(0); }
     .project-desc { transition-delay: .1s; }
     @for $i from 1 through 3 {
       .project-tech:nth-child(#{$i}) {

@@ -1,44 +1,43 @@
-import React from "react";
-import { shallow } from "enzyme";
-import { shallowToJson } from "enzyme-to-json";
-import Project from "../Project";
+import React from 'react';
+import { shallow } from 'enzyme';
+import { shallowToJson } from 'enzyme-to-json';
+import Project from '../Project';
 
-describe("Project", () => {
-  test("Snapshot", () => {
+describe('Project', () => {
+  test('Snapshot', () => {
     const component = shallow(<Project id="test" author="hihuz" techs={[]} />);
     const tree = shallowToJson(component);
     expect(tree).toMatchSnapshot();
   });
 
-  test("Should point to github with passed id and author", () => {
-    const id = "test";
-    const author = "hihuz";
-    const component = shallow(<Project id={id} author={author} techs={[]} />);
-    const expected = `https://github.com/${author}/${id}`;
-    const actual = component.find("a").props().href;
+  test('Should point to github with passed project url', () => {
+    const projectUrl = 'some/url';
+    const component = shallow(<Project projectUrl={projectUrl} techs={[]} />);
+    const expected = `https://github.com/${projectUrl}`;
+    const actual = component.find('a').props().href;
     expect(actual).toEqual(expected);
   });
 
-  test("Should display name prop in an h2 tag", () => {
-    const name = "sylvain";
-    const component = shallow(<Project name={name} techs={[]} />);
-    const expected = name;
-    const actual = component.find("h2").text();
+  test('Should display title prop in an h2 tag', () => {
+    const title = 'sylvain';
+    const component = shallow(<Project title={title} techs={[]} />);
+    const expected = title;
+    const actual = component.find('h2').text();
     expect(actual).toEqual(expected);
   });
 
-  test("Should display desc prop in a p tag", () => {
-    const desc = "boo";
+  test('Should display desc prop in a p tag', () => {
+    const desc = 'boo';
     const component = shallow(<Project desc={desc} techs={[]} />);
     const expected = desc;
-    const actual = component.find("p").text();
+    const actual = component.find('p').text();
     expect(actual).toEqual(expected);
   });
 
-  test("Should render a div with an image for each tech prop", () => {
-    const techs = ["foo", "bar", "baz"];
+  test('Should render a div with an image for each tech prop', () => {
+    const techs = ['foo', 'bar', 'baz'];
     const component = shallow(<Project techs={techs} />);
-    const children = component.find(".project-tech");
+    const children = component.find('.project-tech');
     expect(children.length).toEqual(techs.length);
     techs.forEach((tech, i) => {
       const expected = tech;
