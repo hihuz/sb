@@ -3,7 +3,6 @@ const StaticSiteGeneratorPlugin = require("static-site-generator-webpack-plugin"
 const OfflinePlugin = require("@lcdp/offline-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const ESLintPlugin = require('eslint-webpack-plugin');
 
 module.exports = env => ({
   target: "node",
@@ -60,7 +59,6 @@ module.exports = env => ({
     ]
   },
   plugins: [
-    new ESLintPlugin(),
     new StaticSiteGeneratorPlugin({
       entry: "static",
       globals: {
