@@ -5,7 +5,8 @@ import Link from "../Link";
 
 describe("Link", () => {
   test("Snapshot", () => {
-    const component = shallow(<Link />);
+    // eslint-disable-next-line
+    const component = shallow(<Link url="http://some.url" />);
     const tree = shallowToJson(component);
     expect(tree).toMatchSnapshot();
   });

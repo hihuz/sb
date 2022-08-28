@@ -4,7 +4,9 @@ exports[`Link Snapshot 1`] = `
 <div
   className="link-container"
 >
-  <a>
+  <a
+    href="http://some.url"
+  >
     <svg
       focusable="false"
       role="presentation"

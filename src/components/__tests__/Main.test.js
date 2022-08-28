@@ -13,7 +13,7 @@ describe("Main", () => {
   test("Should render an Intro component and pass it its intro prop", () => {
     const intro = {
       title: "foo",
-      text: "bar"
+      text: "bar",
     };
     const component = shallow(<Main intro={intro} articles={[]} />);
     const child = component.find("Intro");
@@ -26,7 +26,7 @@ describe("Main", () => {
     const articles = [
       { name: "foo", title: "bla" },
       { name: "bar", title: "bleh" },
-      { name: "baz", title: "bluh" }
+      { name: "baz", title: "bluh" },
     ];
     const component = shallow(<Main articles={articles} />);
     const sections = component.find("Section");
