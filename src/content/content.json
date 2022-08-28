@@ -3,9 +3,9 @@
     "title": "Hi!",
     "text": [
       "I'm <strong>Sylvain Boulade</strong>, a software engineer from Toulouse (France).",
-      "I'm currently focusing mainly on the modern JavaScript / TypeScript ecosystem and on financial technology."
+      "I'm currently focusing mainly on the modern TypeScript / JavaScript ecosystem."
     ],
-    "greetings": "Nice to meet you !",
+    "greetings": "Nice to meet you!",
     "links": [
       {
         "url": "https://www.github.com/hihuz",
@@ -32,10 +32,10 @@
       "name": "about",
       "title": "About me",
       "text": [
-        "I am currently working full time as a senior software engineer for Kontist, a Fintech company based in Berlin. I live in Toulouse, France, and chose to work remotely, going to Berlin every few months to catch up with my colleagues.",
-        "I've been working for Kontist since February 2019, and I've been involved in several major technical projects of the company, including an overhaul of our transactions system, a migration of our backend to TypeScript, the creation of an open GraphQL API, the implementation of a TypeScript SDK (and the corresponding oAuth2 flow) allowing third parties to use our financial system, and much more.",
-        "Even if I've been working more on the backend recently, I have not forgotten my frontend roots, and I have also been working closely with the Kontist product team and taken responsibility over major customer-facing features in our native and web apps, such as a search functionality for transactions and transfers, a multi-factor authentication flow, and a continuous effort to diagnose and improve our applications performance.",
-        "I have been working as a professional software developer for some time now: my career started in 2011, and before Kontist I have worked for several companies in various business domains such as e-commerce, market research, critical operations (e.g. software dedicated to firefighting departments).",
+        "I am currently working full time as a senior software engineer for smartclip, an AdTech company based in Hamburg and Berlin. I live in Toulouse, France, and chose to work remotely, going to Berlin every few months to catch up with my colleagues.",
+        "I've been working for smartclip since October 2020, and I've been involved in several major technical projects of the company, including the implementation of an internal framework for building REST APIs, the implementation and maintenance of a React component library used throughout the company's projects, and much more.",
+        "Before smartclip, I have worked for Kontist, a FinTech company based in Berlin, for around 2 years as a senior software engineer and team lead, the major projects I was a part of included an overhaul of our transactions system, a migration of our backend to TypeScript, the creation of an open GraphQL API, the implementation of a TypeScript SDK allowing third parties to connect to and use our financial system, and more.",
+        "I have been working as a professional software developer for some time now: my career started in 2011, and before smartclip and Kontist, I have worked for several companies in various business domains such as e-commerce, market research, critical operations (e.g. software dedicated to firefighting departments).",
         "Over the years, I went back and forth with my emphasis on backend and frontend, I switched domains and company types a few times, and in the process acquired a unique set of skills and perspective when it comes to problem solving."
       ]
     },
@@ -43,7 +43,7 @@
       "name": "code",
       "title": "Code / Projects",
       "text": [
-        "JavaScript has always been my main language of choice, and the rapid evolution of the language and its ecosystem in recent years has kept me interested. I am of course open to and enjoy working with other languages as well.",
+        "JavaScript has always been my main language of choice, and the rapid evolution of the language and its ecosystem in recent years (and particularly the adoption of TypeScript) has kept me interested. I am of course open to and enjoy working with other languages as well.",
         "Even though most of my paid work can't be showcased, I've had the opportunity to champion and contribute to a few open source projects recently and some examples can be seen below."
       ],
       "projects": [
@@ -76,7 +76,7 @@
       "text": [
         "When I'm not working, I still like to spend some time discovering new work related ideas and trends, and keep improving my engineering skills.",
         "But I of course have other things in my life: I enjoy playing classical music on my piano, reading books and novels and talking about them, running, cooking nice meals at home, and many more things.",
-        "I have also been a video game player for the majority of my life now, with a lot of different styles appealing to me over the years, most recently replaying World of Warcraft through Classic, and playing Teamfight Tactics.",
+        "I have also been a video game player for the majority of my life now, with a lot of different styles appealing to me over the years, most recently playing rogue-likes like Hades, and auto-chess like Teamfight Tactics.",
         "Please reach out if you want to know more about me."
       ]
     }

@@ -3,7 +3,7 @@
 exports[`Footer Snapshot 1`] = `
 <footer
   dangerouslySetInnerHTML={
-    Object {
+    {
       "__html": undefined,
     }
   }
